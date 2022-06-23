@@ -1,0 +1,21 @@
+ALGORITHM exercice
+VAR 
+c: char;
+nb,nb1,nb2:INTEGER
+
+BEGIN
+WHILE (c<> ".")
+nb:=nb+1;
+IF (c=3" ") THEN
+nb1:=nb1+1;
+
+END_IF
+IF(uppercase (c)="A" or uppercase (c)="E" or uppercase (c)="U" or uppercase (c)="Y" or uppercase (c)="I" or uppercase (c)="O" )
+THEN
+nb2:=nb2+1;
+END_IF
+write ("nombre de caractére est",nb);
+write ("nombre de mot est",nb1+1);
+write ("nombre des voyelle est",nb2);
+
+END
